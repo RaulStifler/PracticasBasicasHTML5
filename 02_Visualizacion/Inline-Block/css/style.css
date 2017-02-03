@@ -1,0 +1,8 @@
+h1{margin: 1rem auto;}
+.container{padding: 1rem;}
+.item{
+	height: 100px;
+	padding: 1rem;
+	font-size: 2rem;
+	border: thin solid #ff5700;
+}

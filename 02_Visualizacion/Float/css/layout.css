@@ -1,0 +1,7 @@
+.float-l{float: left;}
+.float-r{float: right;}
+.clear, .clear::before, .clear::after{clear: both;}
+.clear::before, .clear::after{
+	content: "";
+	display: block;
+}
