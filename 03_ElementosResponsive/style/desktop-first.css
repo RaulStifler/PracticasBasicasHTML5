@@ -1,0 +1,82 @@
+html{
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+*,*::after,*::before{
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+}
+a{
+	color: #268B00;
+	font-size: inherit;
+}
+a:hover{
+	color: #00048B;
+}
+figcaption{
+	padding: 1rem;
+}
+img{
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+.header{
+	padding: 1rem;
+	color: #fff;
+	background: #222;
+}
+.header img, .responsible img{
+	max-width: 50%;
+}
+.responsible{
+	display: block;
+	margin: auto;
+	width: 100%;
+	font-size: 0;
+}
+.responsible figure{
+	padding: 1rem;
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}
+.responsible figcaption{
+	font-size: 2rem;
+}
+/*
+Estilos Generales +1200px
+-Breakpoints para Responsive Design Desktop First:
+1200px	1024px	768px	600px	480px	320px
+75em	64em	48em	37.5em	30em	20em
+*/
+@media screen and (max-width: 75em) {
+	.header{ background: red; }
+	.responsible img{ max-width: 75%; }
+	.responsible figcaption{ font-size: 1.5rem; }
+}
+@media screen and (max-width: 64em) {
+	.header{ background: green; }
+	.responsible figure{ width: 33.33%; }
+	.responsible figcaption{ font-size: 2rem; }
+}
+@media screen and (max-width: 48em) {
+	.header{ background: blue; }
+	.header img{ max-width: 75%; }
+	.responsible figure{ width: 50%; }
+}
+@media screen and (max-width: 37.5em) {
+	.header{ background: cyan; }
+}
+@media screen and (max-width: 30em) {
+	.header{ background: magenta; }
+	.responsible figure{ width: 100%; }
+	.header img{ max-width: 100%; }
+}
+@media screen and (max-width: 20em) {
+	.header{ background: yellow; }
+}
