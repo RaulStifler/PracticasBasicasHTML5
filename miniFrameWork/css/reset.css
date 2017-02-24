@@ -1,9 +1,9 @@
 /*Estilos de reinicio para comenzar la maquetación*/
 html{
-	-ms-box-sizing: inherit;
-	-moz-box-sizing: inherit;
-	-webkit-box-sizing: inherit;
-	box-sizing: inherit;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 	font-family: sans-serif;
 	font-size: 16px;
 	-ms-text-size-ajust: 100%;
