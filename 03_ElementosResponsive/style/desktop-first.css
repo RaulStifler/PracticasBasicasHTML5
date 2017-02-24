@@ -44,6 +44,11 @@ img{
 	display: inline-block;
 	width: 25%;
 	vertical-align: top;
+	transition: all .4s;
+}
+.responsible figure:hover{
+	background: rgba(0,0,0,.2);
+	border-radius: 2rem;
 }
 .responsible figcaption{
 	font-size: 2rem;
